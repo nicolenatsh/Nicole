@@ -1,143 +1,167 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="26.2.14">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="27.1.5">
   <diagram name="Page-1" id="qfDzfwDS7NNxpKFlNezq">
-    <mxGraphModel dx="1139" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1281" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="76y8zhwa9Jyq83_iabyD-1" value="CASA tidak mencapai target" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="76y8zhwa9Jyq83_iabyD-1" value="Rendahnya indeks literasi keuangan gen z" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="559" y="450" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="76y8zhwa9Jyq83_iabyD-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="76y8zhwa9Jyq83_iabyD-1">
+        <mxCell id="76y8zhwa9Jyq83_iabyD-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="76y8zhwa9Jyq83_iabyD-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="40" y="480" as="sourcePoint" />
             <mxPoint x="520" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="76y8zhwa9Jyq83_iabyD-3" value="Man" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="142.5" y="220" width="120" height="30" as="geometry" />
+        <mxCell id="76y8zhwa9Jyq83_iabyD-3" value="Man" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="155" y="271" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="76y8zhwa9Jyq83_iabyD-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="76y8zhwa9Jyq83_iabyD-3">
+        <mxCell id="76y8zhwa9Jyq83_iabyD-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="76y8zhwa9Jyq83_iabyD-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="280" y="370" as="sourcePoint" />
             <mxPoint x="260" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="76y8zhwa9Jyq83_iabyD-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="76y8zhwa9Jyq83_iabyD-5" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="125" y="420" as="sourcePoint" />
-            <mxPoint x="245" y="420" as="targetPoint" />
+            <mxPoint x="60" y="405" as="sourcePoint" />
+            <mxPoint x="240" y="405" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="76y8zhwa9Jyq83_iabyD-6" value="Pengguna memilih aplikasi lain" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="131" y="386" width="110" height="30" as="geometry" />
+        <mxCell id="76y8zhwa9Jyq83_iabyD-6" value="Kurangnya pengetahuan tentang pengelolaan keuangan" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="59.87" y="422" width="177.75" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="76y8zhwa9Jyq83_iabyD-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="76y8zhwa9Jyq83_iabyD-7" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="215" y="460" as="sourcePoint" />
-            <mxPoint x="225" y="420" as="targetPoint" />
+            <mxPoint x="50" y="463" as="sourcePoint" />
+            <mxPoint x="254" y="463" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="76y8zhwa9Jyq83_iabyD-8" value="UI sulit" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="175" y="430" width="45" height="20" as="geometry" />
+        <mxCell id="76y8zhwa9Jyq83_iabyD-8" value="Takut akan risiko keuangan" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="67" y="327" width="148" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="76y8zhwa9Jyq83_iabyD-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="76y8zhwa9Jyq83_iabyD-10" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="110" y="320" as="sourcePoint" />
-            <mxPoint x="220" y="320" as="targetPoint" />
+            <mxPoint x="70" y="350" as="sourcePoint" />
+            <mxPoint x="227.24" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="76y8zhwa9Jyq83_iabyD-11" value="Kurangnya kesadaran untuk menabung" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="117" y="280" width="100" height="30" as="geometry" />
+        <mxCell id="76y8zhwa9Jyq83_iabyD-12" value="Material" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="395" y="271" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="76y8zhwa9Jyq83_iabyD-12" value="Material" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="365" y="220" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="76y8zhwa9Jyq83_iabyD-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="76y8zhwa9Jyq83_iabyD-12">
+        <mxCell id="76y8zhwa9Jyq83_iabyD-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="76y8zhwa9Jyq83_iabyD-12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="230" y="260" as="sourcePoint" />
-            <mxPoint x="470" y="480" as="targetPoint" />
+            <mxPoint x="260" y="260" as="sourcePoint" />
+            <mxPoint x="500" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="76y8zhwa9Jyq83_iabyD-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="76y8zhwa9Jyq83_iabyD-14" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="320" y="394" as="sourcePoint" />
-            <mxPoint x="453" y="394" as="targetPoint" />
+            <mxPoint x="280" y="462" as="sourcePoint" />
+            <mxPoint x="495" y="462" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="76y8zhwa9Jyq83_iabyD-15" value="Adanya aplikasi investasi lain yang lebih menarik dan mudah digunakan" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="330" y="330" width="121" height="50" as="geometry" />
+        <mxCell id="76y8zhwa9Jyq83_iabyD-15" value="vv" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="160" y="160" width="121" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="76y8zhwa9Jyq83_iabyD-16" value="Method" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="76y8zhwa9Jyq83_iabyD-16" value="Method" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="107" y="640" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="76y8zhwa9Jyq83_iabyD-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="76y8zhwa9Jyq83_iabyD-16">
+        <mxCell id="76y8zhwa9Jyq83_iabyD-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="76y8zhwa9Jyq83_iabyD-16" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="405" y="490" as="sourcePoint" />
             <mxPoint x="205" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="76y8zhwa9Jyq83_iabyD-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="76y8zhwa9Jyq83_iabyD-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="81" y="540" as="sourcePoint" />
-            <mxPoint x="191" y="540" as="targetPoint" />
+            <mxPoint x="63.5" y="535.0000000000001" as="sourcePoint" />
+            <mxPoint x="191" y="535" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="76y8zhwa9Jyq83_iabyD-20" value="Metod eedukasi finansial ke nasabah belum optimal" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="82" y="500" width="118" height="30" as="geometry" />
+        <mxCell id="76y8zhwa9Jyq83_iabyD-20" value="Metode pembelajaran keuangan terlalu teoritis" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="59.5" y="494" width="136.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="76y8zhwa9Jyq83_iabyD-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="76y8zhwa9Jyq83_iabyD-21" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="65" y="610" as="sourcePoint" />
             <mxPoint x="175" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="76y8zhwa9Jyq83_iabyD-22" value="Metode promosi penggunaan myBCA kurang optimal" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="66" y="570" width="118" height="30" as="geometry" />
+        <mxCell id="76y8zhwa9Jyq83_iabyD-22" value="Tidak adanya pendekatan kreatif seperti gamifikasi" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="67" y="550" width="118" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="76y8zhwa9Jyq83_iabyD-29" value="Machine" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="76y8zhwa9Jyq83_iabyD-29" value="Machine" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="259" y="640" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="76y8zhwa9Jyq83_iabyD-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="76y8zhwa9Jyq83_iabyD-29">
+        <mxCell id="76y8zhwa9Jyq83_iabyD-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="76y8zhwa9Jyq83_iabyD-29" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="557" y="490" as="sourcePoint" />
             <mxPoint x="357" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="76y8zhwa9Jyq83_iabyD-33" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="76y8zhwa9Jyq83_iabyD-33" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="212" y="586" as="sourcePoint" />
-            <mxPoint x="332" y="586" as="targetPoint" />
+            <mxPoint x="215" y="574.38" as="sourcePoint" />
+            <mxPoint x="335" y="574.38" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="76y8zhwa9Jyq83_iabyD-34" value="myBCA belum memiliki fitur yang mendukung peningkatan edukasi finansial pengguna" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="222" y="526" width="115" height="30" as="geometry" />
+        <mxCell id="76y8zhwa9Jyq83_iabyD-34" value="Platform literasi keuangan kurang user-friendly bagi gen z" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="227" y="506" width="112.62" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="76y8zhwa9Jyq83_iabyD-49" value="Environment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="76y8zhwa9Jyq83_iabyD-49" value="Environment" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="435" y="640" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="76y8zhwa9Jyq83_iabyD-50" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="76y8zhwa9Jyq83_iabyD-49">
+        <mxCell id="76y8zhwa9Jyq83_iabyD-50" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="76y8zhwa9Jyq83_iabyD-49" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="733" y="490" as="sourcePoint" />
             <mxPoint x="533" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="76y8zhwa9Jyq83_iabyD-51" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="76y8zhwa9Jyq83_iabyD-51" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="370" y="560" as="sourcePoint" />
-            <mxPoint x="512" y="560" as="targetPoint" />
+            <mxPoint x="373" y="549" as="sourcePoint" />
+            <mxPoint x="515" y="549" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="76y8zhwa9Jyq83_iabyD-52" value="Adanya metode investasi/ menabung lainnya yang dianggap lebih menguntungkan" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="380" y="490" width="140" height="70" as="geometry" />
+        <mxCell id="76y8zhwa9Jyq83_iabyD-52" value="Budaya konsumtif akibat tren digital dan media sosial" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="385" y="500" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="76y8zhwa9Jyq83_iabyD-53" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="76y8zhwa9Jyq83_iabyD-53" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="361" y="612" as="sourcePoint" />
             <mxPoint x="501" y="612" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="76y8zhwa9Jyq83_iabyD-54" value="Tingkat literasi keuangan masyarakat masih rendah" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="361" y="573" width="146" height="30" as="geometry" />
+        <mxCell id="u_r2PYIwRiYxyvC0Tcqm-2" value="Era&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="241.49" y="140" width="129.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u_r2PYIwRiYxyvC0Tcqm-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="400" as="sourcePoint" />
+            <mxPoint x="480" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u_r2PYIwRiYxyvC0Tcqm-4" value="Kurangnya pengetahuan dari latar belakang keluarga" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="560" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="76y8zhwa9Jyq83_iabyD-11" value="Kurangnya pengetahuan tentang produk dan layanan keuangan" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="55.989999999999995" y="370" width="185.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u_r2PYIwRiYxyvC0Tcqm-8" value="Bahasa atau istilah keuangan sulit dipahami" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="298" y="311" width="161" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="u_r2PYIwRiYxyvC0Tcqm-9" value="Banyaknya konten yang lebih bersifat promosi produk daripada edukasi murni" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="281" y="410" width="210" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="u_r2PYIwRiYxyvC0Tcqm-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="352" as="sourcePoint" />
+            <mxPoint x="466.5" y="352" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u_r2PYIwRiYxyvC0Tcqm-11" value="Materi literasi keuangan tidak sesuai dengan gaya belajar gen z" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="360" width="190" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
