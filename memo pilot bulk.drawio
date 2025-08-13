@@ -1,35 +1,294 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="28.0.9">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="28.1.0">
   <diagram name="Page-1" id="eauzAbiaNVEcmyfSUxjj">
-    <mxGraphModel dx="1025" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1123" dy="656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Rx1OcIVWyKrmbc8xmCXK-4" value="Akuisia=sfd nsih fsa&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;e" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="40" width="690" height="360" as="geometry" />
+        <mxCell id="Rx1OcIVWyKrmbc8xmCXK-4" value="Penawaran QRIS Statis Preapproved via Halo BCA" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="40" width="770" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="Rx1OcIVWyKrmbc8xmCXK-5" value="Agent DSS 1" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="Rx1OcIVWyKrmbc8xmCXK-4">
-          <mxGeometry x="20" width="670" height="170" as="geometry" />
+        <mxCell id="Rx1OcIVWyKrmbc8xmCXK-5" value="ABP" style="swimlane;startSize=20;horizontal=0;html=1;" parent="Rx1OcIVWyKrmbc8xmCXK-4" vertex="1">
+          <mxGeometry x="20" width="750" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="Rx1OcIVWyKrmbc8xmCXK-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Rx1OcIVWyKrmbc8xmCXK-5" source="Rx1OcIVWyKrmbc8xmCXK-8" target="Rx1OcIVWyKrmbc8xmCXK-9">
+        <mxCell id="Rx1OcIVWyKrmbc8xmCXK-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="Rx1OcIVWyKrmbc8xmCXK-5" source="Rx1OcIVWyKrmbc8xmCXK-8" target="Rx1OcIVWyKrmbc8xmCXK-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Rx1OcIVWyKrmbc8xmCXK-8" value="mulai" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="Rx1OcIVWyKrmbc8xmCXK-5">
-          <mxGeometry x="30" y="55" width="60" height="60" as="geometry" />
+        <mxCell id="Rx1OcIVWyKrmbc8xmCXK-8" value="mulai" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="Rx1OcIVWyKrmbc8xmCXK-5" vertex="1">
+          <mxGeometry x="30" y="25" width="45" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="Rx1OcIVWyKrmbc8xmCXK-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Rx1OcIVWyKrmbc8xmCXK-5" source="Rx1OcIVWyKrmbc8xmCXK-9" target="Rx1OcIVWyKrmbc8xmCXK-12">
+        <mxCell id="Rx1OcIVWyKrmbc8xmCXK-9" value="Request Penarikan data ke BSA" style="rounded=0;whiteSpace=wrap;html=1;" parent="Rx1OcIVWyKrmbc8xmCXK-5" vertex="1">
+          <mxGeometry x="100" y="10" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-54" value="Monitoring pengggunaan fasilitas QRIS Statis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Rx1OcIVWyKrmbc8xmCXK-5">
+          <mxGeometry x="550" y="12.5" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-21" value="selesai" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="Rx1OcIVWyKrmbc8xmCXK-5">
+          <mxGeometry x="690" y="27.5" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Rx1OcIVWyKrmbc8xmCXK-5" source="N2gOi67cwLrzGh_bXqth-54" target="N2gOi67cwLrzGh_bXqth-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Rx1OcIVWyKrmbc8xmCXK-9" value="Menawarkan QRIS Statis BCA kepada nasabah" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Rx1OcIVWyKrmbc8xmCXK-5">
-          <mxGeometry x="110" y="47.5" width="120" height="75" as="geometry" />
+        <mxCell id="Rx1OcIVWyKrmbc8xmCXK-6" value="BSA" style="swimlane;startSize=20;horizontal=0;html=1;" parent="Rx1OcIVWyKrmbc8xmCXK-4" vertex="1">
+          <mxGeometry x="20" y="100" width="750" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="Rx1OcIVWyKrmbc8xmCXK-12" value="Menjelaskan RIPLAY Umum QRIS Statis BCA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Rx1OcIVWyKrmbc8xmCXK-5">
-          <mxGeometry x="250" y="47.5" width="120" height="75" as="geometry" />
+        <mxCell id="N2gOi67cwLrzGh_bXqth-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Rx1OcIVWyKrmbc8xmCXK-6" source="Rx1OcIVWyKrmbc8xmCXK-12" target="N2gOi67cwLrzGh_bXqth-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Rx1OcIVWyKrmbc8xmCXK-6" value="BSA" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="Rx1OcIVWyKrmbc8xmCXK-4">
-          <mxGeometry x="20" y="170" width="670" height="70" as="geometry" />
+        <mxCell id="Rx1OcIVWyKrmbc8xmCXK-12" value="Menyediakan data nasabah yang telah dikurasi sesuai kriteria yang dibuat oleh ABP" style="rounded=0;whiteSpace=wrap;html=1;" parent="Rx1OcIVWyKrmbc8xmCXK-6" vertex="1">
+          <mxGeometry x="100" y="20" width="120" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="Rx1OcIVWyKrmbc8xmCXK-7" value="Lane 3" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="Rx1OcIVWyKrmbc8xmCXK-4">
-          <mxGeometry x="20" y="240" width="670" height="120" as="geometry" />
+        <mxCell id="N2gOi67cwLrzGh_bXqth-5" value="Mengirimkan data nasabah potensial ke Biro Digital Services 1 untuk dilakukan penawaran melalui Outbound Call Halo BCA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Rx1OcIVWyKrmbc8xmCXK-6">
+          <mxGeometry x="240" y="20" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Rx1OcIVWyKrmbc8xmCXK-6" source="N2gOi67cwLrzGh_bXqth-13" target="N2gOi67cwLrzGh_bXqth-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-13" value="Mengolah dan melengkapi data nasabah yang setuju ke dalam format Bulk Upload Magenta" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Rx1OcIVWyKrmbc8xmCXK-6">
+          <mxGeometry x="410" y="20" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-15" value="Mengirimkan file yang telah diolah ke KPFS QRIS_ PREAPPROVED" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Rx1OcIVWyKrmbc8xmCXK-6">
+          <mxGeometry x="550" y="20" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="Rx1OcIVWyKrmbc8xmCXK-7" value="DSS 1" style="swimlane;startSize=20;horizontal=0;html=1;" parent="Rx1OcIVWyKrmbc8xmCXK-4" vertex="1">
+          <mxGeometry x="20" y="220" width="750" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Rx1OcIVWyKrmbc8xmCXK-7" source="N2gOi67cwLrzGh_bXqth-7" target="N2gOi67cwLrzGh_bXqth-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-7" value="Menerima data nasabah dan melakukan penawaran Merchant QRIS Statis BCA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Rx1OcIVWyKrmbc8xmCXK-7">
+          <mxGeometry x="100" y="22.5" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Rx1OcIVWyKrmbc8xmCXK-7" source="N2gOi67cwLrzGh_bXqth-9" target="N2gOi67cwLrzGh_bXqth-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-9" value="Mengirimkan instamail Ketentuan &amp;amp; RILAY Merchant QRIS Statis BCA kepada nasabah" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Rx1OcIVWyKrmbc8xmCXK-7">
+          <mxGeometry x="260" y="22.5" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-11" value="Merekap dan mengirimkan kembali data nasabah yang setuju ke biro BSA untuk diolah" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Rx1OcIVWyKrmbc8xmCXK-7">
+          <mxGeometry x="410" y="22.5" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="Rx1OcIVWyKrmbc8xmCXK-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="Rx1OcIVWyKrmbc8xmCXK-4" source="Rx1OcIVWyKrmbc8xmCXK-9" target="Rx1OcIVWyKrmbc8xmCXK-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Rx1OcIVWyKrmbc8xmCXK-4" source="N2gOi67cwLrzGh_bXqth-5" target="N2gOi67cwLrzGh_bXqth-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="335" y="210" />
+              <mxPoint x="180" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="Rx1OcIVWyKrmbc8xmCXK-4" source="N2gOi67cwLrzGh_bXqth-11" target="N2gOi67cwLrzGh_bXqth-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="Rx1OcIVWyKrmbc8xmCXK-4" source="N2gOi67cwLrzGh_bXqth-15" target="N2gOi67cwLrzGh_bXqth-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-23" value="Penawaran QRIS Statis Preappoved" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="450" width="890" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-24" value="ABP" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="N2gOi67cwLrzGh_bXqth-23">
+          <mxGeometry x="20" width="870" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="N2gOi67cwLrzGh_bXqth-24" source="N2gOi67cwLrzGh_bXqth-26" target="N2gOi67cwLrzGh_bXqth-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-26" value="mulai" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="N2gOi67cwLrzGh_bXqth-24">
+          <mxGeometry x="30" y="25" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-27" value="Request Penarikan data ke BSA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="N2gOi67cwLrzGh_bXqth-24">
+          <mxGeometry x="100" y="10" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-56" value="Monitoring pengggunaan fasilitas QRIS Statis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="N2gOi67cwLrzGh_bXqth-24">
+          <mxGeometry x="670" y="12.5" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-35" value="selesai" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="N2gOi67cwLrzGh_bXqth-24">
+          <mxGeometry x="810" y="27.5" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="N2gOi67cwLrzGh_bXqth-24" source="N2gOi67cwLrzGh_bXqth-56" target="N2gOi67cwLrzGh_bXqth-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-28" value="BSA" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="N2gOi67cwLrzGh_bXqth-23">
+          <mxGeometry x="20" y="100" width="870" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="N2gOi67cwLrzGh_bXqth-28" source="N2gOi67cwLrzGh_bXqth-30" target="N2gOi67cwLrzGh_bXqth-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-30" value="Menyediakan data nasabah yang telah dikurasi sesuai kriteria yang dibuat oleh ABP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="N2gOi67cwLrzGh_bXqth-28">
+          <mxGeometry x="100" y="20" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-31" value="Mengirimkan data nasabah potensial ke Biro Digital Services 1 untuk dilakukan penawaran melalui Outbound Call Halo BCA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="N2gOi67cwLrzGh_bXqth-28">
+          <mxGeometry x="240" y="20" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="N2gOi67cwLrzGh_bXqth-28" source="N2gOi67cwLrzGh_bXqth-33" target="N2gOi67cwLrzGh_bXqth-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-33" value="Mengolah dan melengkapi data nasabah yang setuju ke dalam format Bulk Upload Magenta" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="N2gOi67cwLrzGh_bXqth-28">
+          <mxGeometry x="410" y="20" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-34" value="Mengirimkan file yang telah diolah ke Tim PAM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="N2gOi67cwLrzGh_bXqth-28">
+          <mxGeometry x="550" y="20" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-37" value="DSS 1" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="N2gOi67cwLrzGh_bXqth-23">
+          <mxGeometry x="20" y="220" width="870" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="N2gOi67cwLrzGh_bXqth-37" source="N2gOi67cwLrzGh_bXqth-39" target="N2gOi67cwLrzGh_bXqth-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-39" value="Menerima data nasabah dan melakukan penawaran Merchant QRIS Statis BCA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="N2gOi67cwLrzGh_bXqth-37">
+          <mxGeometry x="100" y="22.5" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="N2gOi67cwLrzGh_bXqth-37" source="N2gOi67cwLrzGh_bXqth-41" target="N2gOi67cwLrzGh_bXqth-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-41" value="Mengirimkan instamail Ketentuan &amp;amp; RILAY Merchant QRIS Statis BCA kepada nasabah" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="N2gOi67cwLrzGh_bXqth-37">
+          <mxGeometry x="260" y="22.5" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-42" value="Merekap dan mengirimkan kembali data nasabah yang setuju ke biro BSA untuk diolah" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="N2gOi67cwLrzGh_bXqth-37">
+          <mxGeometry x="410" y="22.5" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="N2gOi67cwLrzGh_bXqth-23" source="N2gOi67cwLrzGh_bXqth-27" target="N2gOi67cwLrzGh_bXqth-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="N2gOi67cwLrzGh_bXqth-23" source="N2gOi67cwLrzGh_bXqth-31" target="N2gOi67cwLrzGh_bXqth-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="335" y="210" />
+              <mxPoint x="180" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="N2gOi67cwLrzGh_bXqth-23" source="N2gOi67cwLrzGh_bXqth-42" target="N2gOi67cwLrzGh_bXqth-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-46" value="PAM" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="N2gOi67cwLrzGh_bXqth-23">
+          <mxGeometry x="20" y="340" width="870" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-52" value="Input dan approve menggunakan menu pengajuan bulk Magenta" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="N2gOi67cwLrzGh_bXqth-46">
+          <mxGeometry x="550" y="22.5" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="N2gOi67cwLrzGh_bXqth-23" source="N2gOi67cwLrzGh_bXqth-34" target="N2gOi67cwLrzGh_bXqth-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="N2gOi67cwLrzGh_bXqth-23" source="N2gOi67cwLrzGh_bXqth-52" target="N2gOi67cwLrzGh_bXqth-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-58" value="Metode Pemrosesan Bulk Otomatis" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="40" width="740" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-66" value="DSS 1" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="N2gOi67cwLrzGh_bXqth-58">
+          <mxGeometry x="20" width="720" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="N2gOi67cwLrzGh_bXqth-66" source="N2gOi67cwLrzGh_bXqth-61" target="N2gOi67cwLrzGh_bXqth-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-61" value="mulai" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="N2gOi67cwLrzGh_bXqth-66">
+          <mxGeometry x="35" y="35" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-78" value="Merekap dan mengirimkan kembali data nasabah yang menyetujui penawaran Merchant QRIS Statis BCA Preapproved ke BSA untuk diolah" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="N2gOi67cwLrzGh_bXqth-66">
+          <mxGeometry x="100" y="20" width="180" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="N2gOi67cwLrzGh_bXqth-58" source="N2gOi67cwLrzGh_bXqth-78" target="N2gOi67cwLrzGh_bXqth-71">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="110" />
+              <mxPoint x="180" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-73" value="BSA" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="N2gOi67cwLrzGh_bXqth-58">
+          <mxGeometry x="20" y="120" width="720" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-71" value="Mengolah dan melengkapi data nasabah yang setuju ke dalam format Bulk Upload Magenta" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="N2gOi67cwLrzGh_bXqth-73">
+          <mxGeometry x="100" y="22.5" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="N2gOi67cwLrzGh_bXqth-73" source="N2gOi67cwLrzGh_bXqth-72" target="N2gOi67cwLrzGh_bXqth-136">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-72" value="Mengirimkan file yang telah diolah ke KPFS QRIS_ PREAPPROVED" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="N2gOi67cwLrzGh_bXqth-73">
+          <mxGeometry x="240" y="22.5" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="N2gOi67cwLrzGh_bXqth-73" source="N2gOi67cwLrzGh_bXqth-71" target="N2gOi67cwLrzGh_bXqth-72">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-117" value="selesai" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="N2gOi67cwLrzGh_bXqth-73">
+          <mxGeometry x="660" y="37.5" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="N2gOi67cwLrzGh_bXqth-73" source="N2gOi67cwLrzGh_bXqth-136" target="N2gOi67cwLrzGh_bXqth-115">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="60" />
+              <mxPoint x="480" y="108" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-140" value="Ya" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="N2gOi67cwLrzGh_bXqth-139">
+          <mxGeometry x="-0.4739" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="N2gOi67cwLrzGh_bXqth-73" source="N2gOi67cwLrzGh_bXqth-136" target="N2gOi67cwLrzGh_bXqth-117">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="60" />
+              <mxPoint x="480" y="15" />
+              <mxPoint x="683" y="15" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-147" value="Tidak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="N2gOi67cwLrzGh_bXqth-146">
+          <mxGeometry x="-0.7023" y="1" relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-136" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="N2gOi67cwLrzGh_bXqth-73">
+          <mxGeometry x="388.75" y="27.5" width="67.5" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-138" value="&lt;font style=&quot;line-height: 40%; font-size: 9px;&quot;&gt;Terdapat&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;" vertex="1" parent="N2gOi67cwLrzGh_bXqth-73">
+          <mxGeometry x="400" y="43" width="45" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="N2gOi67cwLrzGh_bXqth-73" source="N2gOi67cwLrzGh_bXqth-115" target="N2gOi67cwLrzGh_bXqth-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-115" value="Menginformasikan dan mengirimkan file excel ke PAM apabila terdapat kendala sistem pemrosesan otomatis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="N2gOi67cwLrzGh_bXqth-73">
+          <mxGeometry x="500" y="70" width="140" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-169" value="&lt;font style=&quot;line-height: 40%; font-size: 9px;&quot;&gt;kendala&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;" vertex="1" parent="N2gOi67cwLrzGh_bXqth-73">
+          <mxGeometry x="400" y="52.5" width="45" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-170" value="&lt;font style=&quot;line-height: 40%; font-size: 9px;&quot;&gt;sistem?&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;" vertex="1" parent="N2gOi67cwLrzGh_bXqth-73">
+          <mxGeometry x="400" y="63.5" width="45" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-119" value="Metode Pemrosesan Bulk Manual" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="450" width="470" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-133" value="PAM" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="N2gOi67cwLrzGh_bXqth-119">
+          <mxGeometry x="20" width="450" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-134" value="Input dan approve pengajuan menggunakan menu pengajuan bulk Magenta" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="N2gOi67cwLrzGh_bXqth-133">
+          <mxGeometry x="240" y="63" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-131" value="selesai" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="N2gOi67cwLrzGh_bXqth-133">
+          <mxGeometry x="390" y="78" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="N2gOi67cwLrzGh_bXqth-133" source="N2gOi67cwLrzGh_bXqth-134" target="N2gOi67cwLrzGh_bXqth-131">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="675" y="-59.95238095238096" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="N2gOi67cwLrzGh_bXqth-133" source="N2gOi67cwLrzGh_bXqth-152" target="N2gOi67cwLrzGh_bXqth-167">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-152" value="mulai" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="N2gOi67cwLrzGh_bXqth-133">
+          <mxGeometry x="30" y="78" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-168" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="N2gOi67cwLrzGh_bXqth-133" source="N2gOi67cwLrzGh_bXqth-167" target="N2gOi67cwLrzGh_bXqth-134">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N2gOi67cwLrzGh_bXqth-167" value="Menerima file excel berisi data calon merchant sesuai format bulk upload" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="N2gOi67cwLrzGh_bXqth-133">
+          <mxGeometry x="95" y="63" width="120" height="75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
