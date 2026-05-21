@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="1290" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1099" dy="702" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1028,6 +1028,98 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pVFrLNVtyzCu8PySFtlv-99" edge="1" parent="pVFrLNVtyzCu8PySFtlv-6" source="pVFrLNVtyzCu8PySFtlv-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="pVFrLNVtyzCu8PySFtlv-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sxCfghODubcFGMX-LOUn-1" parent="1" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;" value="Proses Pendebetan Biaya" vertex="1">
+          <mxGeometry height="390" width="740" x="120" y="1190" as="geometry" />
+        </mxCell>
+        <mxCell id="sxCfghODubcFGMX-LOUn-2" parent="sxCfghODubcFGMX-LOUn-1" style="swimlane;html=1;startSize=20;horizontal=0;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;EDV&lt;/font&gt;" vertex="1">
+          <mxGeometry height="120" width="720" x="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sxCfghODubcFGMX-LOUn-3" edge="1" parent="sxCfghODubcFGMX-LOUn-2" source="sxCfghODubcFGMX-LOUn-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="sxCfghODubcFGMX-LOUn-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sxCfghODubcFGMX-LOUn-4" parent="sxCfghODubcFGMX-LOUn-2" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;mulai&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="40" x="30" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sxCfghODubcFGMX-LOUn-61" edge="1" parent="sxCfghODubcFGMX-LOUn-2" source="sxCfghODubcFGMX-LOUn-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="sxCfghODubcFGMX-LOUn-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sxCfghODubcFGMX-LOUn-5" parent="sxCfghODubcFGMX-LOUn-2" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; text-indent: 0in;&quot;&gt;&lt;font face=&quot;Calibri&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;Menyiapkan data merchant yang akan didebet&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="70" width="110" x="90" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="sxCfghODubcFGMX-LOUn-60" parent="sxCfghODubcFGMX-LOUn-2" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; text-indent: 0in;&quot;&gt;&lt;font face=&quot;Calibri&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Mengajukan persetujuan ke minimal pejabat S3 melalui DocApps&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="70" width="110" x="219" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="sxCfghODubcFGMX-LOUn-80" parent="sxCfghODubcFGMX-LOUn-2" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; text-indent: 0in;&quot;&gt;&lt;font face=&quot;Calibri&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Mengajukan permohonan pendebetan biaya ke BSV mengikuti&lt;b&gt; ketentuan Alur Permohonan Pemrosesan BIaya dan Transaksi UKKP/KCK ke BSV yang berlaku&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="70" width="155" x="345" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="sxCfghODubcFGMX-LOUn-87" parent="sxCfghODubcFGMX-LOUn-2" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; text-indent: 0in;&quot;&gt;&lt;font face=&quot;Calibri&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Rekap hasil pendebetan&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="70" width="110" x="540" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="sxCfghODubcFGMX-LOUn-58" parent="sxCfghODubcFGMX-LOUn-2" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;end&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="40" x="670" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sxCfghODubcFGMX-LOUn-59" edge="1" parent="sxCfghODubcFGMX-LOUn-2" source="sxCfghODubcFGMX-LOUn-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="sxCfghODubcFGMX-LOUn-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="60" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sxCfghODubcFGMX-LOUn-8" parent="sxCfghODubcFGMX-LOUn-1" style="swimlane;html=1;startSize=20;horizontal=0;" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Kepala Biro EDV&lt;/span&gt;" vertex="1">
+          <mxGeometry height="160" width="720" x="20" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sxCfghODubcFGMX-LOUn-64" edge="1" parent="sxCfghODubcFGMX-LOUn-8" source="sxCfghODubcFGMX-LOUn-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="sxCfghODubcFGMX-LOUn-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sxCfghODubcFGMX-LOUn-10" parent="sxCfghODubcFGMX-LOUn-8" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; text-indent: 0in;&quot;&gt;&lt;font face=&quot;Calibri&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Review data yang diajukan&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="60" width="91" x="228" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sxCfghODubcFGMX-LOUn-70" edge="1" parent="sxCfghODubcFGMX-LOUn-8" source="sxCfghODubcFGMX-LOUn-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="sxCfghODubcFGMX-LOUn-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sxCfghODubcFGMX-LOUn-79" edge="1" parent="sxCfghODubcFGMX-LOUn-8" source="sxCfghODubcFGMX-LOUn-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="sxCfghODubcFGMX-LOUn-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sxCfghODubcFGMX-LOUn-62" parent="sxCfghODubcFGMX-LOUn-8" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Data sesuai?&lt;/font&gt;" vertex="1">
+          <mxGeometry height="47.5" width="70" x="239" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sxCfghODubcFGMX-LOUn-69" parent="sxCfghODubcFGMX-LOUn-8" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; text-indent: 0in;&quot;&gt;&lt;font face=&quot;Calibri&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Tolak pengajuan&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="60" width="91" x="99.5" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sxCfghODubcFGMX-LOUn-78" parent="sxCfghODubcFGMX-LOUn-8" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; text-indent: 0in;&quot;&gt;&lt;font face=&quot;Calibri&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Setujui pengajuan&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="60" width="91" x="377" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sxCfghODubcFGMX-LOUn-63" edge="1" parent="sxCfghODubcFGMX-LOUn-1" source="sxCfghODubcFGMX-LOUn-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="sxCfghODubcFGMX-LOUn-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sxCfghODubcFGMX-LOUn-71" edge="1" parent="sxCfghODubcFGMX-LOUn-1" source="sxCfghODubcFGMX-LOUn-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="sxCfghODubcFGMX-LOUn-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sxCfghODubcFGMX-LOUn-81" edge="1" parent="sxCfghODubcFGMX-LOUn-1" source="sxCfghODubcFGMX-LOUn-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="sxCfghODubcFGMX-LOUn-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sxCfghODubcFGMX-LOUn-84" edge="1" parent="sxCfghODubcFGMX-LOUn-1" source="sxCfghODubcFGMX-LOUn-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="sxCfghODubcFGMX-LOUn-82">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="60" />
+              <mxPoint x="540" y="290" />
+              <mxPoint x="175" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sxCfghODubcFGMX-LOUn-15" parent="sxCfghODubcFGMX-LOUn-1" style="swimlane;html=1;startSize=20;horizontal=0;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;OPR-Pengembalian&lt;/font&gt;" vertex="1">
+          <mxGeometry height="110" width="720" x="20" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="sxCfghODubcFGMX-LOUn-86" edge="1" parent="sxCfghODubcFGMX-LOUn-15" source="sxCfghODubcFGMX-LOUn-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="sxCfghODubcFGMX-LOUn-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sxCfghODubcFGMX-LOUn-82" parent="sxCfghODubcFGMX-LOUn-15" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; text-indent: 0in;&quot;&gt;&lt;font face=&quot;Calibri&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Debet biaya mengikuti &lt;b&gt;ketentuan Permrosesan Manual Biaya dan Transaksi yang berlaku&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="70" width="110" x="99.5" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="sxCfghODubcFGMX-LOUn-85" parent="sxCfghODubcFGMX-LOUn-15" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; text-indent: 0in;&quot;&gt;&lt;font face=&quot;Calibri&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Menginformasikan hasil pendebetan ke EDV&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="70" width="110" x="230" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="sxCfghODubcFGMX-LOUn-88" edge="1" parent="sxCfghODubcFGMX-LOUn-1" source="sxCfghODubcFGMX-LOUn-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="sxCfghODubcFGMX-LOUn-87">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
